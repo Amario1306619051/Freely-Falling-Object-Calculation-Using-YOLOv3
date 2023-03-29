@@ -1,0 +1,6 @@
+[submodule "labelImg"]
+	path = labelImg
+	url = https://github.com/heartexlabs/labelImg
+[submodule "labelimg"]
+	path = labelimg
+	url = https://github.com/heartexlabs/labelImg.git
