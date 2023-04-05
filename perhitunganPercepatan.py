@@ -7,7 +7,7 @@ totalData = len(waktu50Cm)
 himpunanPercepatanGravitasi = []
 percepatanGravitasi = 0
 for i in range(totalData):
-    percepatanGravitasi = 0.4/(0.2*waktu40Cm[i]*0.001 + 0.5*waktu40Cm[i]*0.001*waktu40Cm[i]*0.001)
+    percepatanGravitasi = 0.3/(0.2*waktu30Cm[i]*0.001 + 0.5*waktu30Cm[i]*0.001*waktu30Cm[i]*0.001)
     himpunanPercepatanGravitasi.append(percepatanGravitasi)
 
 print(himpunanPercepatanGravitasi)
