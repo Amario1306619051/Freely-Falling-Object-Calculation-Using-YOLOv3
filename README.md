@@ -13,24 +13,36 @@ This repository contains the implementation of the YOLOv3 algorithm for the calc
 
 2. **YOLOv3 Architecture Overview**
    - Include an illustration and explanation of the YOLOv3 architecture used in the project.
+   ![Foto Profil](./Picture/machines-10-00261-g001.png)
+
 
 3. **Loss Function**
    - Provide details about the employed loss function used during the model training phase.
+   ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.04.png)
+
 
 4. **Mean Average Precision (mAP)**
    - Include information about the mAP evaluation metric and its significance in assessing the model's accuracy.
+    ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.11.png)
+
 
 5. **Object Tracking Results**
    - Present the outcomes of object tracking, focusing on the detected ball and sensors.
    - Discuss the significance of accurately detecting these components for the subsequent calculations.
+    ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.19.png)
+    ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.27.png)
+    ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.33.png)
 
 6. **Time Measurement Results**
    - Display the recorded time measurements for the falling object using the detected sensor positions.
    - Explain the methodology and implications of these time measurements.
+    ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.42.png)
 
 7. **Acceleration Calculation Results**
    - Showcase the calculated acceleration values based on the obtained time measurements.
    - Discuss the comparison between the YOLOv3-based results and sensor-based measurements.
+    ![Foto Profil](./Picture/Screenshot%202023-08-25%20at%2009.11.52.png)
+
 
 ## Important Notes
 
