@@ -1,45 +1,47 @@
-<div align="center">
- <h1>Perhitugan-GJB-menggunakan-YOLOV3</h1>
- <img src="https://user-images.githubusercontent.com/75331373/219564185-6d73f9d2-72bf-421c-a78c-328d7b7ac146.png" alt="Open In Colab">
- <p>Sumber gambar = Jurnal YOLOV3 Joseph Redmon
-</div>
+# Freely Falling Object Calculation using YOLOv3 Algorithm
 
-<div align="center">
- <h1>Dataset</h1>
-Berisi <strong> Classes.names </strong> yang berisikan daftar kelas dalam format yang fleksibel. Kelas yang terdapat pada repository ini adalah
-</div>
-<br>
-<ol>
- <li>Dog (Anjing)</li>
- <li>Person (Orang) </li>
- <li>Cat (Kucing)</li>
- <li>TV</li>
- <li>Car (Mobil)</li>
- <li>Meatballs (Bakso)</li>
- <li>Marina Sauce (Saus Marina)</li>
- <li>Tomato soup (Sup tomat)</li>
- <li>Chicken noodle soup</li>
- <li>French Onion Soup</li>
- <li>Chicken breast</li>
- <li>Ribs</li>
- <li>Pulled pork</li>
- <li>Hamburger</li>
- <li>Cavity</li>
- <li>Bola GJB</li>
- <li>Pemabatas</li>
-</ol>
-<br>
-<strong>Dataset Custom</strong> terdiri dari
-<ol>
- <li><strong>500++</strong> Dataset Bola GJB dan pembatas dengan format <strong>jpg</strong?</li>
- <li>File dengan format txt </li>
-</ol>
+![Foto Profil](./Picture/ezgif.com-video-to-gif.gif)
 
-<div align="center">
- <h1> Langkah langkah </h1>
-</div>
 
-1. Label data menggunakan cara yang ada pada folder <strong> labelimg </strong>
-2. Training dengan menggunakan file <strong>0. Training dataer.ipynb</strong> menggunakan google colab
-3. Mendownload cfg dan weights
-4. Deteksi dengan menggunakan file <strong> 7. YOLOV3(Berhasil) </strong>
+This repository contains the implementation of the YOLOv3 algorithm for the calculation of freely falling object movements. The steps involved in the process are outlined below:
+
+## Steps
+
+1. **Training Model using Darknet Framework**
+   - Train the YOLOv3 model using the Darknet framework developed by Joseph Redmon.
+   - Utilize the provided pre-trained model for the base architecture.
+
+2. **YOLOv3 Architecture Overview**
+   - Include an illustration and explanation of the YOLOv3 architecture used in the project.
+
+3. **Loss Function**
+   - Provide details about the employed loss function used during the model training phase.
+
+4. **Mean Average Precision (mAP)**
+   - Include information about the mAP evaluation metric and its significance in assessing the model's accuracy.
+
+5. **Object Tracking Results**
+   - Present the outcomes of object tracking, focusing on the detected ball and sensors.
+   - Discuss the significance of accurately detecting these components for the subsequent calculations.
+
+6. **Time Measurement Results**
+   - Display the recorded time measurements for the falling object using the detected sensor positions.
+   - Explain the methodology and implications of these time measurements.
+
+7. **Acceleration Calculation Results**
+   - Showcase the calculated acceleration values based on the obtained time measurements.
+   - Discuss the comparison between the YOLOv3-based results and sensor-based measurements.
+
+## Important Notes
+
+- For accurate results, ensure the YOLOv3 model effectively detects both the falling object (ball) and the sensors.
+- The architecture of YOLOv3, along with its training and loss function details, play a pivotal role in obtaining reliable outcomes.
+- The object tracking results should demonstrate the capability of the model to precisely locate the falling object and sensors.
+- The calculated time measurements serve as the foundation for determining the acceleration due to gravity.
+- Comparative analysis between YOLOv3-based measurements and sensor-based measurements offers insights into the model's accuracy.
+
+Feel free to explore the repository and refer to the attached files for detailed information about each step and the corresponding results.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
